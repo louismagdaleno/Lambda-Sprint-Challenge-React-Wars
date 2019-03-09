@@ -33,7 +33,7 @@ const Character = (props) => {
             <ul>
                 <li>Gender: {props.character.gender}</li>
                 <li>Height: {props.character.height}</li>
-                <li>Mass: {props.character.mass}</li>
+                <li>Mass  : {props.character.mass}</li>
             </ul>
         </div>
     );

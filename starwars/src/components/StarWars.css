@@ -50,6 +50,12 @@
 }
 
 @media only screen and (max-width: 800px) {
+    * {
+        letter-spacing: 4px;
+    }
+    h1 {
+        font-size: 5rem;
+    }
     .characterContainer {
       flex-direction: column;
       flex-wrap: none;
@@ -58,13 +64,31 @@
 
     .character{
         width: 100%;
-        height: 300px;
+        height: auto;
         margin-bottom: 25px;
+        border-bottom: 2px solid silver;
+        background-image: linear-gradient(black, lightgray);
     }
+
+    .character > h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .character > ul {
+        margin-bottom: 20px;
+    }
+    .character > ul > li {
+        font-size: 2.4rem;
+        color: black;
+        
+    }
+    
 
     .character > img {
         width: 80%;
         height: auto;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
   }
