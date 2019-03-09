@@ -8,7 +8,7 @@ import Character from './Character';
 const CharacterContainer = (props) => {
     return (
         <div className="characterContainer">
-            {props.characters.map(character => <Character character={character} />) }
+            {props.characters.map((character, index) => <Character  id={index} character={character} />) }
         </div>
     );
 }
