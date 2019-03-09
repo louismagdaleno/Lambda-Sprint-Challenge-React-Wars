@@ -13,6 +13,7 @@ import obiwan from './obiwan.jpg';
 
 // create component that renders an individual character's properties
 const Character = (props) => {
+    // array of imported pics
     let pics = [
         luke,
         c3po,
