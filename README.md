@@ -26,12 +26,18 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a library for rendering UI. In the MVC design paradigm, it is the view component. 
+
 - [ ] What does it mean to _think_ in react?
+To think in React means to think of an application's UI as components.
 
 - [ ] Describe state.
 
+State is the data that a class based component manages.
+
 - [ ] Describe props.
 
+Props is an object passed from a parent to child and the object contains all of the properties that were passed down to the child when it was called.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
