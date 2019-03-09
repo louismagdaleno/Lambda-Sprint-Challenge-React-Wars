@@ -1,0 +1,16 @@
+.characterContainer {
+    width: 80%;
+    height: 600px;
+    color: white;
+    background: black;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.character {
+    height: 50%;
+    width: 20%;
+    border: .2px purple;
+}
