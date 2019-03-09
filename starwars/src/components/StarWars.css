@@ -14,16 +14,39 @@
 .character {
     height: 50%;
     width: 20%;
-    padding: 25px;
+    padding: 5px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
+.character > h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.character > ul {
+    width: 50%;
+    margin: 0 auto;
+    list-style: square;
+}
+
+.character > ul > li {
+    text-align: left;
+}
+
+
+
+
+
 .character > img {
     height: auto;
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+   
 }
 
 @media only screen and (max-width: 800px) {
